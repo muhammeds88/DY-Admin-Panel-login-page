@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(29, 27, 27);
+    color: white;
+}
+.container{
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+h2{
+    font-family: "Nova Round",system-ui;
+    font-size: 70px;
+    color: rgb(241, 67, 67);
+}
+.bttn{
+    display: flex;
+    justify-content: center;
+    padding: 18%;
+}
+.btn{
+    font-size: 16px;
+    padding: 11px 25px;
+    border-radius: 19px;
+    background-color: rgb(136, 135, 135);
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(100, 98, 98);
+}
